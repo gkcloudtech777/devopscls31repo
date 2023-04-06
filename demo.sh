@@ -1,7 +1,4 @@
 #!/bin/bash
 
-echo "<--------- Display current system uptime information --------->"
-uptime
-
-echo "<--------- Display current mount point information --------->"
-df -h
+sudo apt-get update
+sudo apt-get install apache2 -y
